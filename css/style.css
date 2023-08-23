@@ -1,0 +1,128 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Black Ops One', cursive;
+}
+
+header{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 20px 0;
+}
+
+header h2{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.register-list{
+    display: flex;
+    margin: 20px auto;
+    padding: 0 20px;
+    min-height: 90%;
+}
+
+.register-list input[type=text], .register-list input[type=number]{
+    flex: 1;
+    height: 35px;
+    outline: none;
+    padding: 5px;
+    margin: 5px;
+}
+
+.register-list input[type=submit]{
+    height: 35px;
+    vertical-align: top;
+    line-height: 0;
+    margin: 5px;
+}
+
+.product-list, .register-list{
+    max-width: 1080px;
+    text-align: center;
+}
+
+.table thead{
+    font-size: 1.5em;
+}
+
+.table tbody{
+    font-size: 1.25em;
+}
+
+
+
+.table td input:first-child{
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+.table tr{
+    vertical-align: middle;
+    
+}
+
+.table tr th,.table tr td{
+    padding: 4px;
+}
+
+.btn.btn-danger,.btn.btn-warning{
+    padding: 5px 10px;
+}
+
+.table tr td button i{
+    font-size: 18px;
+}
+
+.table tr td button.btn.btn-warning :first-child{
+    position: relative;
+    left: 1px;
+    top: 0px;
+}
+.footer{
+    /* width: 400px; */
+    display: flex;
+    padding: 0 25%;
+    max-width: 1080px;
+}
+
+.list-sum h2{
+    margin-top: 13px;
+}
+
+.footer .btn .btn-danger{
+    display: inline-block;
+}
+@media screen and (max-width: 610px){
+    .register-list{
+        display: block;
+
+    }
+
+    .register-list input[type=text],        .register-list input[type=number]{
+        display: block;
+        width: 100%;
+    }
+
+    .table thead{
+        font-size: 0.85em;
+    }
+
+    .table tbody{
+        font-size: 0.8em;
+    }
+    
+    .footer{
+        padding: 0 4%;
+    }
+
+    .footer h2{
+        font-size: 1.5em;
+    }
+
+    
+    
+}
