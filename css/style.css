@@ -2,7 +2,6 @@
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Black Ops One', cursive;
 }
 
 header{
@@ -20,12 +19,13 @@ header h2{
 .register-list{
     display: flex;
     margin: 20px auto;
-    padding: 0 20px;
+    /* padding: 0 20px; */
     min-height: 90%;
 }
 
-.register-list input[type=text], .register-list input[type=number]{
+.register-list input[type=text], .register-list input[type=number], .register-list input[type=date], .register-list input[type=operation]{
     flex: 1;
+    width: calc(100% / 6);
     height: 35px;
     outline: none;
     padding: 5px;
